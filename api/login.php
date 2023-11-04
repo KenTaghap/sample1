@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if ($user) {
         // Successful login, set session variables or redirect to a protected area
     echo "Invalid username or password.";
-
+<div id="center_button"><button onclick="location.href='../home/index.html'">back</button></div>
     } else {
          // Invalid login
     echo "Invalid username or password.";
