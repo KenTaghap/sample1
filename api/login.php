@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($user) {
         // Successful login, set session variables or redirect to a protected area
-    echo "success.";
+        header("Location: ../home/index.html");
     } else {
          // Invalid login
     echo "Invalid username or password.";
