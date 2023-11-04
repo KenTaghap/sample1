@@ -1,6 +1,6 @@
 <?php
 // Include the MongoDB PHP driver
-require '../vendor/autoload.php';
+require '../api/vendor/autoload.php';
 
 use MongoDB\Client;
 
