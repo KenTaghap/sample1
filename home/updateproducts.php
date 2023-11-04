@@ -1,6 +1,6 @@
 <?php
 // Include the MongoDB PHP driver
-require '../vendor/autoload.php';
+require '../api/vendor/autoload.php';
 
 error_reporting(E_ERROR | E_PARSE);
 
