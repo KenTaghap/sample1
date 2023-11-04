@@ -230,21 +230,7 @@ document.getElementById("Username").value = name;
 
   </div>
  <center>
-	 <button id="phpButton">Goto cart</button>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    $("#phpButton").click(function() {
-      $.ajax({
-        url: "cart.php",
-        method: "POST", // or "GET" as appropriate
-        success: function(data) {
-          // Handle the response from the PHP script here
-        }
-      });
-    });
-  });
-</script>
+	<a href="cart.php">Goto Cart</a>
 
    
   </center>
