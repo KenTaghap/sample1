@@ -42,9 +42,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $collection->insertOne($document);
 
     // Redirect back to the form with a success message
-    header("Location: register.html?success=1");
+    echo "Registration successful!";
 } else {
     // Redirect back to the form with an error message
-    header("Location: register.html?error=1");
+    echo "Invalid username or password";
 }
 ?>
+<div id="center_button"><button onclick="location.href='../index.html'">Back to Home</button></div>
