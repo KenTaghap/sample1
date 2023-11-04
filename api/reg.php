@@ -36,6 +36,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "email" => $email,
         "username" => $username,
         "password" => $password,
+
+
+        "chocolatestick" => $fname,
+        "chololateprice" => $lname,
+        "milkprice" => $age,
+        "milkstick" => $address,
+        "pineappleprice" => $cnumber,
+        "pineapplestick" => $email,
+        "sweetcornprice" => $username,
+        "sweetcornstick" => $password,
+
+
+         "watermelonprice" => $fname,
+        "watermelonstick" => $lname,
+        "chocolatecart" => $age,
+        "milkcart" => $address,
+        "pineapplecart" => $cnumber,
+        "sweetcorncart" => $email,
+        "watermeloncart" => $username,
+        "chocolateprice" => $password,
+
+
+
+        
     ];
 
     // Insert the document into the collection
