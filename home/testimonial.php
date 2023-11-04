@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require '../api/vendor/autoload.php';
 
 use MongoDB\Client;
 
