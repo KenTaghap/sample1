@@ -53,7 +53,7 @@ $watermelonstick = $_POST['watermelonstick'];
     echo "Invalid information";
 }
 ?>
-<div id="center_button"><button onclick="location.href='contact.html'">back</button></div>
+<div id="center_button"><button onclick="location.href='../home/contact.html'">back</button></div>
 
 
 
