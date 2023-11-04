@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+ob_start(); // Start output bufferin
 
 // Connect to MongoDB Atlas
 $mongoClient = new MongoDB\Client("mongodb+srv://jasondionanao87:Pogiakoxd123@cluster0.kzbqdga.mongodb.net/");
@@ -26,5 +27,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Invalid username or password.";
     }
 }
+    ob_end_flush(); // Send the buffered output
 ?>
 
