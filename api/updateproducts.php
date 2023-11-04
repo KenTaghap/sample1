@@ -65,4 +65,4 @@ try {
     echo "An error occurred: " . $e->getMessage();
 }
 ?>
-<div id="center_button"><button onclick="location.href='chocolate.html'">back</button></div>
+<div id="center_button"><button onclick="location.href='../home/chocolate.html'">back</button></div>
