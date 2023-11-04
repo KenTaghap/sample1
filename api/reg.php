@@ -42,9 +42,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $collection->insertOne($document);
 
     // Redirect back to the form with a success message
-    header("Location: insert.html?success=1");
+    header("Location: register.html?success=1");
 } else {
     // Redirect back to the form with an error message
-    header("Location: insert.html?error=1");
+    header("Location: register.html?error=1");
 }
 ?>
