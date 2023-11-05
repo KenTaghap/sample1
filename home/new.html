@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cart</title>
+</head>
+<body>
+    <h1>Cart</h1>
+    <form id="cart-form">
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" name="Username" required>
+        <button type="button" id="displayButton">Display</button>
+    </form>
+    <div id="cart-details">
+        <!-- User's cart details will be displayed here -->
+    </div>
+    <script>
+        document.getElementById('displayButton').addEventListener('click', function () {
+            const username = document.getElementById('Username').value;
+
+            fetch('/api/cart', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Username: username })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                } else {
+                    // Display cart details in 'cart-details' div
+                    document.getElementById('cart-details').innerHTML = JSON.stringify(data.userInfo, null, 2);
+                }
+            })
+            .catch(error => {
+                console.error(error);
+            });
+        });
+    </script>
+</body>
+</html>
