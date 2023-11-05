@@ -94,3 +94,4 @@ try {
     $userpassword = "";
 }
 ?>
+<div id="center_button"><button onclick="location.href='../home/cart.html'">Back</button></div>
