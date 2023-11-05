@@ -219,7 +219,7 @@ try {
                                             name="password" />
                                     </div>
                                     <div class="d-flex">
-                                        <button type="submit" id="displayButton" name="display" class="btn btn-primary" style="display:none;">Display</button>
+                                        <button type="submit" id="displayButton" name="display" class="btn btn-primary">Display</button>
                                         <button type="submit" id="updateButton" name="update" class="btn btn-primary">Update</button>
                                     </div>
                                 </form>
