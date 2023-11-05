@@ -1,5 +1,5 @@
 <?php
-require '../vendor/autoload.php';
+require 'api/vendor/autoload.php';
 
 error_reporting(E_ERROR | E_PARSE);
 
@@ -148,22 +148,22 @@ try {
                         <div class="collapse navbar-collapse " id="navbarSupportedContent">
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item ">
-                                    <a class="nav-link" href="../home/index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="home/index.html">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../home/about.html"> About</a>
+                                    <a class="nav-link" href="home/about.html"> About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../home/chocolate.html">Products</a>
+                                    <a class="nav-link" href="home/chocolate.html">Products</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="../home/contact.html">Daily report</a>
+                                    <a class="nav-link" href="home/contact.html">Daily report</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="testimonial.php">Accounts</a>
+                                    <a class="nav-link" href="home/testimonial.php">Accounts</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class ="nav-link" href="../index.html">Logout</a>
+                                    <a class ="nav-link" href="index.html">Logout</a>
                                 </li>
                             </ul>
                         </div>
