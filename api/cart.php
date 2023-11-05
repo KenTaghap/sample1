@@ -184,7 +184,7 @@ try {
                                     <div>
                                         <center>
                                             <h4 style="color:black;">Username<input type="text" name="Username"
-                                                id="Username" class="input-text" readonly></h4>
+                                                id="Username" class="input-text"></h4>
                                                 <script>
 					// Retrieve the name from localStorage
 					var name = localStorage.getItem("Username");
