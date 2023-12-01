@@ -1,5 +1,6 @@
 <?php
 require 'vendor/autoload.php';
+error_reporting(E_ERROR | E_PARSE);
 ob_start(); // Start output bufferin
 
 // Connect to MongoDB Atlas
