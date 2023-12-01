@@ -38,24 +38,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         "password" => $password,
 
 
-        "chocolatestick" => 0,
-        "chololateprice" => 0,
-        "milkprice" => 0,
-        "milkstick" => 0,
-        "pineappleprice" => 0,
-        "pineapplestick" => 0,
-        "sweetcornprice" => 0,
-        "sweetcornstick" => 0,
+        "chocolatestick" => "none",
+        "chololateprice" => "none",
+        "milkprice" => "none",
+        "milkstick" =>"none",
+        "pineappleprice" => "none",
+        "pineapplestick" => "none",
+        "sweetcornprice" => "none",
+        "sweetcornstick" => "none",
 
 
-         "watermelonprice" => 0,
-        "watermelonstick" => 0,
-        "chocolatecart" => 0,
-        "milkcart" => 0,
-        "pineapplecart" => 0,
-        "sweetcorncart" => 0,
-        "watermeloncart" => 0,
-        "chocolateprice" => 0,
+         "watermelonprice" => "none",
+        "watermelonstick" => "none",
+        "chocolatecart" => "none",
+        "milkcart" => "none",
+        "pineapplecart" => "none",
+        "sweetcorncart" => "none",
+        "watermeloncart" => "none",
+        "chocolateprice" => "none",
 
 
 
