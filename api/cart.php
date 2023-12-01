@@ -282,7 +282,7 @@ try {
                                     
                                     <div class="d-flex">
                                         <button type="submit" id="displayButton" name="display" class="btn btn-primary">Display</button>
-                                        <button type="submit" id="updateButton" name="update" class="btn btn-primary" onclick="submitForm()">Update</button>
+                                        <button type="submit" id="updateButton" name="update" class="btn btn-primary" onclick="submitForm()">Buy now!</button>
                                         <script>
     function submitForm() {
       if (confirm("Are you sure you want to buy this products?")) {
